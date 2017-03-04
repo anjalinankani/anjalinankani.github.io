@@ -1,0 +1,120 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+
+/* background color, border, height, width and margin for the layout */
+
+#wrap
+{ border:10px solid #FF7F50;
+background-color:#d9ad7c;
+height:2700px;
+width:1000px;
+margin:auto;
+}
+
+/* menu background color, height and border */
+
+#menu
+{ background-color:#d96459;
+  height:90px;
+  border:5px solid #ffcc5c;
+}
+
+#menu ul
+{
+list-style:none;
+}
+
+/* menu unordered list styling */ 
+
+#menu ul li
+{
+padding:5px;
+border:2px solid #ffcc5c;
+background-color:#ffeead;
+font-size:20px;
+float:left;
+margin:30px;
+}
+
+/* heading 1 and paragraph styling */
+
+h1 {
+  font-size: 48px;
+  color: #ffef96;
+}
+
+
+p {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #fefbd8;
+  max-width: 65%;
+  min-width: 500px;
+}
+
+/* Portfolio section border and heading 2 styling */
+
+#Portfolio
+{
+height:530px;
+width:990px;
+border:5px solid GoldenRod;
+}
+
+h2 {
+  font-size: 48px;
+  color: #ffef96;
+}
+
+/* contact section border and heading 3 styling */
+
+#Contact
+{
+height:500px;
+width:990px;
+border:5px solid #B0C4DE;
+}
+
+h3 {
+  font-size: 48px;
+  color: #ffef96;
+}
+
+/* form, input, label, span and textarea styling */
+
+form
+{ max-width: 1000px;
+margin: 0 auto 100px;
+}
+
+input
+{ border: 2px solid black;
+  width: 200px;
+  height: 18px;
+}
+
+[type="submit"]
+{
+color: black;
+font size: 20px;
+text-transform: uppercase;
+width: 100px;
+height: 30px;
+}
+
+textarea
+{ border: 2px solid black;
+  width:500px;
+  height:100px;
+}
+label
+{ display: block; 
+  margin-bottom: 20px;
+}
+
+span
+{ display: block; }
